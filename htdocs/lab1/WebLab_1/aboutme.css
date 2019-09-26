@@ -1,0 +1,41 @@
+/* p {
+  font-family: sans-serif;
+  color: red;
+}
+글자 색 변환 */
+
+/* p {
+  color: red;
+  background-color: yellow;
+} */
+/* 글자 색이랑 형광펜 기능 */
+
+/* p { color: red; }
+h2 { color: rgb(128, 0, 196); }
+/* 특정 글자색 변환 */
+/* p {
+  font-family: Georgia;
+} */
+/* p {
+  font-family: Garamond, "Times New Roman", serif;
+}
+h2 {
+  font-family: "Courier New";
+}
+/* 특정 글자 폰트 변환 */
+/* p {
+  font-size: 10pt;
+}
+
+p, h1, h2 {
+  color: green;
+}
+h2 {
+  background-color: yellow;
+}
+grouping styles */
+
+/* p {
+  font-weight: bold;
+  text-shadow: -2px 5px gray;
+} */
