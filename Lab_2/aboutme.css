@@ -1,0 +1,79 @@
+html {
+    color: #939396;
+    background-color: #1D2475;
+}
+
+body {
+  font-family: "Helvetica";
+  background-image: url("./resource/wad.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 40pt;
+  color: #E7931E;
+  text-shadow: -2px 3px green;
+}
+
+dl {
+  font-size: 70%;
+}
+dt {
+  font-weight: bold;
+  color: #FFF86B;
+}
+
+a {
+  color: #FF4F4F;
+  text-decoration: none;
+}
+
+h2 {
+  color: #F7931E;
+  text-decoration: underline overline;
+}
+
+strong {
+  color: #FFF86B;
+}
+
+blockquote {
+    color: #D1DFEB;
+    text-align: left;
+}
+
+li {
+    text-align: left;
+}
+.num {
+    list-style-type: square;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table, td, th {
+  /* border-style : dotted; */
+  border: 1px solid white;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 7px;
+}
+
+img {
+  border: medium solid #F7931E;
+}
+
+img.g, img.h {
+  border: 0;
+}
+
+p.word {
+  font-weight: bold;
+  font-size: 150%;
+}
