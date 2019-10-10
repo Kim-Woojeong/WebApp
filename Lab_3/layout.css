@@ -1,0 +1,35 @@
+div.outline {
+  border: 5px solid green;
+  border-width: thick;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+div.BlueBox {
+  border: 5px solid blue;
+  background-color: #99CCFF;
+  padding: 5px;
+  margin-top: 10px;
+}
+div.RedBox {
+  border : 5px solid red;
+}
+#SubTitle {
+  border: 5px solid orange;
+  : right;
+}
+#MainTitle {
+  : right;
+}
+.car {
+  overflow: hidden;
+  float: right;  
+}
+span {
+  border: 5px solid purple;
+}
+html {
+  background-image: url("blueTextureBG.jpg");
+  margin-left: 10px;
+  margin-right: 10px;
+}
