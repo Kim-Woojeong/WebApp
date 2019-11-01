@@ -12,10 +12,13 @@
 			<img src="banner.png" alt="Rancid Tomatoes" height=50px/>
 		</div>
 
+<div class = "BodyOutLine">  <!--타이틀 포함 -->
 		<h1 class="MovieTitle">TMNT (2007)</h1>
 
-<div class = "OutLine">    <!-- overall content area -->
-		<div class = "Poster">
+<div class = "ContentOutLine">    <!-- overall content area -->
+
+<div class = "RightContent">
+<div class = "Poster">
 			<img src="overview.png" alt="general overview" />
 		</div>
 
@@ -61,17 +64,19 @@
 			</dd>
 		</dl>
 	</div>  <!-- PosterInfo-->
+</div> <!-- RightContent -->
 
 <div class = "LeftContent">   <!-- overall content area : left -->
 
 		<div class = "RottenBox">
-			<img src="rottenbig.png" alt="Rotten" />
+			<img src="rottenbig.png" alt="Rotten" class="Rotten"/>
 			<span class="Percentage">33%</span>
 		</div>  <!-- RottenBox -->
 
-<div class = "CommentOutLineBox">
+<div class = "ReviewOutLineBox"> <!-- Comment와 critic를 묶은 클래스  -->
 
-	<div class = "CommentBox">  <!-- Comment랑 Critic랑 묶은 Box만들어야하나???  -->
+<div class = "column1">
+	<div class = "CommentBox">
 		<p>
 			<img src="rotten.gif" alt="Rotten" />
 			<q>Ditching the cheeky, self-aware wink that helped to excuse the concept's inherent corniness, the movie attempts to look polished and 'cool,' but the been-there animation can't compete with the then-cutting-edge puppetry of the 1990 live-action movie.</q>
@@ -79,9 +84,9 @@
 	</div>
 	<div class = "CriticBox">
 		<p>
-			<img src="critic.gif" alt="Critic" />
+			<img src="critic.gif" alt="Critic" class="man"/>
 			Peter Debruge <br />
-			Variety
+			<span class = "style">Variety</span>
 		</p>
 	</div>
 
@@ -93,9 +98,9 @@
 	</div>
 	<div class = "CriticBox">
 		<p>
-			<img src="critic.gif" alt="Critic" />
+			<img src="critic.gif" alt="Critic" class="man"/>
 			Todd Gilchrist <br />
-			IGN Movies
+			<span class = "style">IGN Movies</span>
 		</p>
 	</div>
 
@@ -107,7 +112,7 @@
 	</div>
 	<div class = "CriticBox">
 		<p>
-			<img src="critic.gif" alt="Critic" />
+			<img src="critic.gif" alt="Critic" class="man"/>
 			Jay Sherman (unemployed)
 		</p>
 	</div>
@@ -120,9 +125,9 @@
 	</div>
 	<div class = "CriticBox">
 		<p>
-			<img src="critic.gif" alt="Critic" />
+			<img src="critic.gif" alt="Critic" class="man"/>
 			Joshua Tyler <br />
-			CinemaBlend.com
+			<span class = "style">CinemaBlend.com</span>
 		</p>
 	</div>
 
@@ -134,12 +139,14 @@
 	</div>
 	<div class = "CriticBox">
 		<p>
-			<img src="critic.gif" alt="Critic" />
+			<img src="critic.gif" alt="Critic" class="man"/>
 			Leo Rafael <br />
-			HY PetShop Ltd.
+			<span class = "style">HY PetShop Ltd.</span>
 		</p>
 	</div>
+</div>  <!-- column1 -->
 
+<div class = "column2">
 	<div class = "CommentBox">
 		<p>
 			<img src="rotten.gif" alt="Rotten" />
@@ -148,9 +155,9 @@
 	</div>
 	<div class = "CriticBox">
 		<p>
-			<img src="critic.gif" alt="Critic" />
+			<img src="critic.gif" alt="Critic" class="man"/>
 			Jeannette Catsoulis <br />
-			New York Times
+			<span class = "style">New York Times</span>
 		</p>
 	</div>
 
@@ -162,9 +169,9 @@
 	</div>
 	<div class = "CriticBox">
 		<p>
-			<img src="critic.gif" alt="Critic" />
+			<img src="critic.gif" alt="Critic" class="man"/>
 			Ed Gonzalez <br />
-			Slant Magazine
+			<span class = "style">Slant Magazine</span>
 		</p>
 	</div>
 
@@ -176,9 +183,9 @@
 	</div>
 	<div class = "CriticBox">
 		<p>
-			<img src="critic.gif" alt="Critic" />
+			<img src="critic.gif" alt="Critic" class="man"/>
 			Mark Palermo <br />
-			Coast (Halifax, Nova Scotia)
+			<span class = "style">Coast (Halifax, Nova Scotia)</span>
 		</p>
 	</div>
 
@@ -190,9 +197,9 @@
 	</div>
 	<div class = "CriticBox">
 		<p>
-			<img src="critic.gif" alt="Critic" />
+			<img src="critic.gif" alt="Critic" class="man"/>
 			Steve Rhodes <br />
-			Internet Reviews
+			<span class = "style">Internet Reviews</span>
 		</p>
 	</div>
 
@@ -204,24 +211,26 @@
 	</div>
 	<div class = "CriticBox">
 		<p>
-			<img src="critic.gif" alt="Critic" />
+			<img src="critic.gif" alt="Critic" class="man"/>
 			Scott Lee <br />
-			SELab
+			<span class = "style">SELab</span>
 		</p>
 	</div>
-</div>   <!-- CommentOutLineBox -->
+</div> <!-- column2 -->
+</div>   <!-- ReviewOutLineBox -->
 </div>   <!-- overall content area : left -->
 
 <div class="PageInfo">
-		<p><span class="pageinfo">(1-10) of 88</span></p>
+		<p>(1-10) of 88</p>
 </div>
+</div>  <!-- ContentOutLine -->
 
 <div class = "CheckBox">
-		<div>
+
 			<a href="http://validator.w3.org/check/referer"><img src="w3c-html.png" alt="Valid HTML5" /></a> <br />
 			<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="w3c-css.png" alt="Valid CSS" /></a>
-		</div>
+
 	</div> <!-- CheckBox -->
-	</div>  <!-- OutLine -->
+</div> <!-- BodyOutLine -->
 	</body>
 </html>

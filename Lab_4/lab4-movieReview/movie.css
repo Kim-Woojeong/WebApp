@@ -1,17 +1,23 @@
 html {
   background-image: url("background.png");
 }
-span.pageinfo {
+body{
   font-size: 8pt;
   font-family: "Verdana";
-
+}
+.PageInfo {
+  clear: both;
+  text-align: center;
+  background-color: #A2B964;
+  margin:0px;
+  padding:5px;
 }
 .Banner {
   text-align: center;
   background-image: url("bannerbg.png");
   background-repeat: repeat-x;
 }
-h1.MovieTitle {
+.MovieTitle {
   text-align: center;
   font-size: 24pt;
   font-weight: bold;
@@ -19,19 +25,93 @@ h1.MovieTitle {
   text-shadow: 3px 3px #999999;
 
 }
-div.OutLine {
+.ContentOutLine {
   width: 800px;
-  text-align: center;
+  /* text-align: center; */
+  margin-left: auto;
+  margin-right: auto;
   border: 4px solid gray;
   border-radius: 20px;
+  overflow: hidden;
 }
-div.LeftContent {
-  width: 550px;
-}
-div.RottenBox {
+.RottenBox {
   background-image: url("rbg.png");
   background-repeat: repeat-x;
   height: 83px;
-  position: top;
-  
+}
+.Rotten {
+  vertical-align: bottom;
+}
+.Percentage {
+  font-size: 48pt;
+  color: red;
+  font-weight: bold;
+}
+.LeftContent {
+  width: 550px;
+  float: left;
+}
+.RightContent {
+  width: 250px;
+  float: right;
+  background-color: #A2B964;
+}
+.PosterInfo {
+  padding: 10pt ;
+  font: 8pt "Arial";
+}
+dt {
+  font-weight: bold;
+}
+dd {
+  margin-bottom: 10pt;
+}
+li {
+  list-style: none;
+}
+.column1 {
+  width: 47%;
+  margin-left: 2%;
+  margin-right: 2%;
+  float: left;
+}
+.column2 {
+  width: 47%;
+  margin-right: 2%;
+  float: right;
+}
+.CommentBox {
+  background-color: #E8DC9B;
+  font-size: 8pt;
+  font-weight: bold;
+  border: 2px solid gray;
+  border-radius: 10px;
+  padding: 8px;
+}
+.CommentBox p{
+  margin:0px;
+}
+p img {
+  margin-right: 5px;
+  float: left;
+}
+.CriticBox {
+  margin-bottom :20pt;
+}
+.style {
+  font-style: italic;
+}
+.man {
+  margin-right: 5px;
+}
+.CheckBox {
+  float: right;
+  opacity: 0.5;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.ReviewOutLineBox{
+  margin-top: 20px;
 }
